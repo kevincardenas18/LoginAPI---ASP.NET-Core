@@ -1,0 +1,88 @@
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\appsettings.Development.json
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\appsettings.json
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.exe
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.deps.json
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.runtimeconfig.json
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.pdb
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.csproj.AssemblyReference.cache
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.AssemblyInfoInputs.cache
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.AssemblyInfo.cs
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.csproj.CoreCompileInputs.cache
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.MvcApplicationPartsAssemblyInfo.cs
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.MvcApplicationPartsAssemblyInfo.cache
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.csproj.CopyComplete
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\refint\LoginAPI - ASP.NET Core.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.pdb
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.genruntimeconfig.cache
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\ref\LoginAPI - ASP.NET Core.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Web.Cors.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Web.Http.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Web.Http.Cors.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Net.Http.Extensions.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Net.Http.Primitives.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.RazorAssemblyInfo.cache
+D:\Universidad\7mo Semestre\Metodologia de Software\Proyectos\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.RazorAssemblyInfo.cs
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\appsettings.json
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.exe
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.deps.json
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.runtimeconfig.json
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\LoginAPI - ASP.NET Core.pdb
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Web.Http.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Web.Http.Cors.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Net.Http.Extensions.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Net.Http.Primitives.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.AssemblyInfo.cs
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.RazorAssemblyInfo.cache
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.RazorAssemblyInfo.cs
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.csproj.CopyComplete
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\refint\LoginAPI - ASP.NET Core.dll
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.pdb
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\LoginAPI - ASP.NET Core.genruntimeconfig.cache
+C:\Users\kevin\Desktop\LoginAPI - ASP.NET Core\obj\Debug\net7.0\ref\LoginAPI - ASP.NET Core.dll
