@@ -42,8 +42,17 @@ namespace LoginAPI___ASP.NET_Core.Controllers
             var response = await _httpClient.GetAsync($"/api/Usuarios?usuario={login.usuario}&password={login.contrasena}");
             if (response.IsSuccessStatusCode)
             {
-                var content = await response.Content.ReadAsStringAsync();
-                return Ok(content);
+                var jsonString = await response.Content.ReadAsStringAsync();
+                if (jsonString.Contains("INGRESO EXITOSO"))
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    return Ok(content);
+                }
+                else
+                {
+                    return BadRequest();
+                }
+                
             }
             else
             {
