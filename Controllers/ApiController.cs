@@ -352,5 +352,23 @@ namespace LoginAPI___ASP.NET_Core.Controllers
                 return BadRequest();
             }
         }
+
+        [HttpGet]
+        [Route("trabajador/select")]
+        public async Task<ActionResult<string>> GetTrabajadorAsync(int concepto)
+        {
+            var url = $"/api/Varios/TrabajadorSelect?sucursal={concepto}";
+            var response = await _httpClient.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return Content(content, "application/json");
+            }
+            else
+            {
+                return StatusCode((int)response.StatusCode, response.ReasonPhrase);
+            }
+        }
     }
 }
