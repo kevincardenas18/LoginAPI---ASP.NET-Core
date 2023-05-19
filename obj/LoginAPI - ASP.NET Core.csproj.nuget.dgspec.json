@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\7mo Semestre\\Metodologia de Software\\Proyectos\\LoginAPI - ASP.NET Core\\LoginAPI - ASP.NET Core.csproj": {}
+    "C:\\Users\\kevin\\Desktop\\METOD. DESARROLLO SOFTWARE\\Proyectos\\LoginAPI---ASP.NET-Core\\LoginAPI - ASP.NET Core.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\7mo Semestre\\Metodologia de Software\\Proyectos\\LoginAPI - ASP.NET Core\\LoginAPI - ASP.NET Core.csproj": {
+    "C:\\Users\\kevin\\Desktop\\METOD. DESARROLLO SOFTWARE\\Proyectos\\LoginAPI---ASP.NET-Core\\LoginAPI - ASP.NET Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\7mo Semestre\\Metodologia de Software\\Proyectos\\LoginAPI - ASP.NET Core\\LoginAPI - ASP.NET Core.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\METOD. DESARROLLO SOFTWARE\\Proyectos\\LoginAPI---ASP.NET-Core\\LoginAPI - ASP.NET Core.csproj",
         "projectName": "LoginAPI - ASP.NET Core",
-        "projectPath": "D:\\Universidad\\7mo Semestre\\Metodologia de Software\\Proyectos\\LoginAPI - ASP.NET Core\\LoginAPI - ASP.NET Core.csproj",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\METOD. DESARROLLO SOFTWARE\\Proyectos\\LoginAPI---ASP.NET-Core\\LoginAPI - ASP.NET Core.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\7mo Semestre\\Metodologia de Software\\Proyectos\\LoginAPI - ASP.NET Core\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\METOD. DESARROLLO SOFTWARE\\Proyectos\\LoginAPI---ASP.NET-Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

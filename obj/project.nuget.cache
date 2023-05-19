@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjoPfVgYEjZEZJTB+FC/bCPVGwZONoozkNiSIx/PdY65rs+BTzcrZtWBNEPPRVCLG5LWUDM1iEPOeelUVnXz4w==",
+  "dgSpecHash": "4L2iwYNoruwzVP3IExnQ0qtZuaOHdAJdmBL95s9cG3sltzIFYKvMSG7lNzHqi2lb8bGF/cBdl003d7tcKPFVrw==",
   "success": true,
-  "projectFilePath": "D:\\Universidad\\7mo Semestre\\Metodologia de Software\\Proyectos\\LoginAPI - ASP.NET Core\\LoginAPI - ASP.NET Core.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\Desktop\\METOD. DESARROLLO SOFTWARE\\Proyectos\\LoginAPI---ASP.NET-Core\\LoginAPI - ASP.NET Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
