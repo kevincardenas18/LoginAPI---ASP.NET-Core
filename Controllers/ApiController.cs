@@ -68,9 +68,11 @@ namespace LoginAPI___ASP.NET_Core.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                var json = await response.Content.ReadAsStringAsync();
-                var centroCostos = JsonConvert.DeserializeObject<List<CentroCostos>>(json);
-                return centroCostos;
+                //var json = await response.Content.ReadAsStringAsync();
+                //var centroCostos = JsonConvert.DeserializeObject<List<CentroCostos>>(json);
+                //return centroCostos;
+                var content = await response.Content.ReadAsStringAsync();
+                return Content(content, "application/json");
             }
             else
             {
