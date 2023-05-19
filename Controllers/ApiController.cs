@@ -190,7 +190,7 @@ namespace LoginAPI___ASP.NET_Core.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("movimientosPlanilla/insert")]
         public async Task<ActionResult> InsertarMovimientoPlanillaAsync(string conceptos, int prioridad, string tipooperacion, int cuenta1, int cuenta2, int cuenta3, int cuenta4, string MovimientoExcepcion1, string MovimientoExcepcion2, string MovimientoExcepcion3, int Traba_Aplica_iess, int Traba_Proyecto_imp_renta, int Aplica_Proy_Renta, int Empresa_Afecta_Iess)
         {
@@ -209,7 +209,7 @@ namespace LoginAPI___ASP.NET_Core.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpGet]
         [Route("movimientosPlanilla/update")]
         public async Task<ActionResult> EditarMovimientoPlanillaAsync(int codigoplanilla, string conceptos, int prioridad, string tipooperacion, int cuenta1, int cuenta2, int cuenta3, int cuenta4, string MovimientoExcepcion1, string MovimientoExcepcion2, string MovimientoExcepcion3, int Traba_Aplica_iess, int Traba_Proyecto_imp_renta, int Aplica_Proy_Renta, int Empresa_Afecta_Iess)
         {
@@ -230,7 +230,7 @@ namespace LoginAPI___ASP.NET_Core.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpGet]
         [Route("movimientosPlanilla/delete")]
         public async Task<ActionResult> DeleteMovimientoPlanillaAsync(int codigomovimiento, string descripcionomovimiento)
         {
