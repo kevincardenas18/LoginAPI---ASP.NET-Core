@@ -355,9 +355,9 @@ namespace LoginAPI___ASP.NET_Core.Controllers
 
         [HttpGet]
         [Route("trabajador/select")]
-        public async Task<ActionResult<string>> GetTrabajadorAsync(int concepto)
+        public async Task<ActionResult<string>> GetTrabajadorAsync(int sucursal)
         {
-            var url = $"/api/Varios/TrabajadorSelect?sucursal={concepto}";
+            var url = $"/api/Varios/TrabajadorSelect?sucursal={sucursal}";
             var response = await _httpClient.GetAsync(url);
 
             if (response.IsSuccessStatusCode)
