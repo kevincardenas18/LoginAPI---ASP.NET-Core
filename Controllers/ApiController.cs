@@ -80,22 +80,50 @@ namespace LoginAPI___ASP.NET_Core.Controllers
             }
         }
 
+        //[HttpPost]
+        //[Route("centroCostos/insert")]
+        //public async Task<ActionResult> AgregarCentroCostoAsync(int codigoCentroCostos, string descripcionCentroCostos)
+        //{
+        //    Console.WriteLine("El valor de codigoCentroCostos es: " + codigoCentroCostos);
+
+        //    var response = await _httpClient.GetAsync($"/api/Varios/CentroCostosInsert?codigocentrocostos={codigoCentroCostos}&descripcioncentrocostos={descripcionCentroCostos}");
+
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        var content = await response.Content.ReadAsStringAsync();
+        //        return Ok(content);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest();
+        //    }
+        //}
+
         [HttpPost]
         [Route("centroCostos/insert")]
-        public async Task<ActionResult> AgregarCentroCostoAsync(int codigoCentroCostos, string descripcionCentroCostos)
+        public async Task<ActionResult> AgregarCentroCostoAsync([FromQuery] int codigoCentroCostos, [FromQuery] string descripcionCentroCostos)
         {
             Console.WriteLine("El valor de codigoCentroCostos es: " + codigoCentroCostos);
 
-            var response = await _httpClient.GetAsync($"/api/Varios/CentroCostosInsert?codigocentrocostos={codigoCentroCostos}&descripcioncentrocostos={descripcionCentroCostos}");
+            var parameters = new Dictionary<string, string>
+            {
+                { "codigoCentroCostos", codigoCentroCostos.ToString() },
+                { "descripcionCentroCostos", descripcionCentroCostos }
+            };
+
+            var content = new FormUrlEncodedContent(parameters);
+
+            var response = await _httpClient.PostAsync("/api/Varios/CentroCostosInsert", content);
 
             if (response.IsSuccessStatusCode)
             {
-                var content = await response.Content.ReadAsStringAsync();
-                return Ok(content);
+                var responseBody = await response.Content.ReadAsStringAsync();
+                return Ok(responseBody);
             }
             else
             {
-                return BadRequest();
+                var errorResponse = await response.Content.ReadAsStringAsync();
+                return BadRequest(errorResponse);
             }
         }
 
@@ -190,24 +218,64 @@ namespace LoginAPI___ASP.NET_Core.Controllers
             }
         }
 
-        [HttpGet]
+        //[HttpGet]
+        //[Route("movimientosPlanilla/insert")]
+        //public async Task<ActionResult> InsertarMovimientoPlanillaAsync(string conceptos, int prioridad, string tipooperacion, int cuenta1, int cuenta2, int cuenta3, int cuenta4, string MovimientoExcepcion1, string MovimientoExcepcion2, string MovimientoExcepcion3, int Traba_Aplica_iess, int Traba_Proyecto_imp_renta, int Aplica_Proy_Renta, int Empresa_Afecta_Iess)
+        //{
+        //    Console.WriteLine("El valor de conceptos es: " + conceptos);
+
+        //    var response = await _httpClient.GetAsync($"/api/Varios/MovimientoPlanillaInsert?conceptos={conceptos}&prioridad={prioridad}&tipooperacion={tipooperacion}&cuenta1={cuenta1}&cuenta2={cuenta2}&cuenta3={cuenta3}&cuenta4={cuenta4}&MovimientoExcepcion1={MovimientoExcepcion1}&MovimientoExcepcion2={MovimientoExcepcion2}&MovimientoExcepcion3={MovimientoExcepcion3}&Traba_Aplica_iess={Traba_Aplica_iess}&Traba_Proyecto_imp_renta={Traba_Proyecto_imp_renta}&Aplica_Proy_Renta={Aplica_Proy_Renta}&Empresa_Afecta_Iess={Empresa_Afecta_Iess}");
+
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        var content = await response.Content.ReadAsStringAsync();
+        //        return Ok(content);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest();
+        //    }
+        //}
+
+        [HttpPost]
         [Route("movimientosPlanilla/insert")]
-        public async Task<ActionResult> InsertarMovimientoPlanillaAsync(string conceptos, int prioridad, string tipooperacion, int cuenta1, int cuenta2, int cuenta3, int cuenta4, string MovimientoExcepcion1, string MovimientoExcepcion2, string MovimientoExcepcion3, int Traba_Aplica_iess, int Traba_Proyecto_imp_renta, int Aplica_Proy_Renta, int Empresa_Afecta_Iess)
+        public async Task<ActionResult> InsertarMovimientoPlanillaAsync([FromQuery] string conceptos, [FromQuery] int prioridad, [FromQuery] string tipooperacion, [FromQuery] int cuenta1, [FromQuery] int cuenta2, [FromQuery] int cuenta3, [FromQuery] int cuenta4, [FromQuery] string MovimientoExcepcion1, [FromQuery] string MovimientoExcepcion2, [FromQuery] string MovimientoExcepcion3, [FromQuery] int Traba_Aplica_iess, [FromQuery] int Traba_Proyecto_imp_renta, [FromQuery] int Aplica_Proy_Renta, [FromQuery] int Empresa_Afecta_Iess)
         {
             Console.WriteLine("El valor de conceptos es: " + conceptos);
 
-            var response = await _httpClient.GetAsync($"/api/Varios/MovimientoPlanillaInsert?conceptos={conceptos}&prioridad={prioridad}&tipooperacion={tipooperacion}&cuenta1={cuenta1}&cuenta2={cuenta2}&cuenta3={cuenta3}&cuenta4={cuenta4}&MovimientoExcepcion1={MovimientoExcepcion1}&MovimientoExcepcion2={MovimientoExcepcion2}&MovimientoExcepcion3={MovimientoExcepcion3}&Traba_Aplica_iess={Traba_Aplica_iess}&Traba_Proyecto_imp_renta={Traba_Proyecto_imp_renta}&Aplica_Proy_Renta={Aplica_Proy_Renta}&Empresa_Afecta_Iess={Empresa_Afecta_Iess}");
+            var parameters = new Dictionary<string, string>
+            {
+                { "conceptos", conceptos },
+                { "prioridad", prioridad.ToString() },
+                { "tipooperacion", tipooperacion },
+                { "cuenta1", cuenta1.ToString() },
+                { "cuenta2", cuenta2.ToString() },
+                { "cuenta3", cuenta3.ToString() },
+                { "cuenta4", cuenta4.ToString() },
+                { "MovimientoExcepcion1", MovimientoExcepcion1 },
+                { "MovimientoExcepcion2", MovimientoExcepcion2 },
+                { "MovimientoExcepcion3", MovimientoExcepcion3 },
+                { "Traba_Aplica_iess", Traba_Aplica_iess.ToString() },
+                { "Traba_Proyecto_imp_renta", Traba_Proyecto_imp_renta.ToString() },
+                { "Aplica_Proy_Renta", Aplica_Proy_Renta.ToString() },
+                { "Empresa_Afecta_Iess", Empresa_Afecta_Iess.ToString() }
+            };
+
+            var content = new FormUrlEncodedContent(parameters);
+
+            var response = await _httpClient.PostAsync("/api/Varios/MovimientoPlanillaInsert", content);
 
             if (response.IsSuccessStatusCode)
             {
-                var content = await response.Content.ReadAsStringAsync();
-                return Ok(content);
+                var responseBody = await response.Content.ReadAsStringAsync();
+                return Ok(responseBody);
             }
             else
             {
                 return BadRequest();
             }
         }
+
 
         [HttpGet]
         [Route("movimientosPlanilla/update")]
